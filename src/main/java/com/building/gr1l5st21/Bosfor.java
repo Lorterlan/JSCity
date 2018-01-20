@@ -1,4 +1,4 @@
-package com.company;
+package com.building.gr1l5st21;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -29,7 +29,7 @@ public class Bosfor extends Union {
 
 
 	private static List<Abstract3dModel> getModels(int xSize, int ySize) {
-		List<Abstract3dModel> models = new ArrayList<>();
+		List<Abstract3dModel> models = new ArrayList();
 		//Левая стенка(1)
 		Difference leftWallOne = new Difference(
 				new Cube(new Dims3d(WIDTH*1.75, WIDTH, HEIGHT*1.25)).move(Coords3d.xOnly(50)).move(Coords3d.yOnly(2)).move(Coords3d.zOnly(25)),

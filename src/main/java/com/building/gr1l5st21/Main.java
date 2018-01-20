@@ -1,4 +1,4 @@
-package com.company;
+package com.building.gr1l5st21;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,8 +14,8 @@ public class Main {
      * @throws IllegalValueException
      */
     public static void main(String[] args) throws IllegalValueException, IOException {
-        new SaveScadFiles(new File("C:\\Users\\andrj\\Desktop\\Laba")).
-                addModel("Bosfor.scad", new Bosfor(2,1)).
+        new SaveScadFiles(new File("./target")).
+                addModel("building_gr1l5st21.scad", new Bosfor(2,1)).
                 saveScadFiles();
     }
 }
