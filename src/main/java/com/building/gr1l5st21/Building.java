@@ -13,7 +13,7 @@ import eu.printingin3d.javascad.models.*;
 import eu.printingin3d.javascad.tranzitions.Difference;
 import eu.printingin3d.javascad.tranzitions.Union;
 
-public class Bosfor extends Union {
+public class Building extends Union {
 	private static final double WIDTH = 40.0;
 	private static final double HEIGHT = 50;
 	private static final double AXLE_INNER_DIAMETER = 4.75;
@@ -22,7 +22,7 @@ public class Bosfor extends Union {
 	private static final double KNOB_RADIUS = 8;
 	private static final double KNOT_RADIUS = 0;
 
-	public Bosfor(int xSize, int ySize) {
+	public Building(int xSize, int ySize) {
 		super(getModels(xSize, ySize));
 	}
 
